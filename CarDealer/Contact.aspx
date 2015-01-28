@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="CarDealer.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<%--<link rel="stylesheet" href="layout/styles/layout2.css" type="text/css"/>--%>
- <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
-<form id="frm" runat="server">
+    <%--<link rel="stylesheet" href="layout/styles/layout2.css" type="text/css"/>--%>
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<%--<form id="Form1" runat="server">--%>
 <h1>Contact Us</h1>
 <div id="left1"> 
      <table class="tableContact" border = "0"  style="width: 660px">
@@ -72,5 +72,5 @@
     </tr>
 </table>
 </div>
-</form>
+<%--</form>--%>
 </asp:Content>

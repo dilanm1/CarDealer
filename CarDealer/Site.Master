@@ -14,6 +14,7 @@
 <script type="text/javascript" src="layout/scripts/jquery.jcarousel.setup.js"></script>
 </head>
 <body id="top">
+<form id="Form1" runat="server">
 <div class="wrapper col1">
   <div id="topbar">
     <p>Tel: 037-22 23859 | Mail: info@domain.com</p>
@@ -68,14 +69,14 @@
     <div id="newsletter">
       <h2>Find Your Dream Car !</h2>
       <p>Please enter the brand name </p>
-      <form action="#" method="post" runat="server">
+     <%-- <form action="#" method="post" runat="server">--%>
         <fieldset>
           <legend>News Letter</legend>
           <input type="text" value="Enter Name Here&hellip;"  onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
-          <asp:Button ID="news_go" runat="server" Text="Find" />
+           <asp:Button ID="news_go" runat="server" Text="Find" />
            
         </fieldset>
-      </form>
+      <%--</form>--%>
     <%--  <p>To unsubscribe please <a href="#">click here &raquo;</a></p>--%>
     </div>
     <div class="footbox">
@@ -120,5 +121,6 @@
     <br class="clear" />
   </div>
 </div>
+</form>
 </body>
 </html>
