@@ -4,7 +4,7 @@
 <html lang="en">
 <head runat="server">
 <meta charset="utf-8" />  
-<title>RJ Motors</title>
+<title>RS Car Sales-Kurunegala</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
 <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
@@ -29,7 +29,7 @@
 <div class="wrapper col2">
   <div id="header">
     <div class="fl_left">
-      <h1><a href="Default.aspx">RJ Motors</a></h1>
+      <h1><a href="Default.aspx">RS Car Sales</a></h1>
       <p>Kurunegala</p>
     </div>
     <div class="fl_right"> <a href="#"><img src="images/demo/b1.jpg" alt="" /></a> </div>
