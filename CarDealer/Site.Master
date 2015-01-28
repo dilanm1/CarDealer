@@ -7,6 +7,7 @@
 <title>RS Car Sales-Kurunegala</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+
 <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
 <script type="text/javascript" src="layout/scripts/jquery.jcarousel.pack.js"></script>
 <script type="text/javascript" src="layout/scripts/jquery.easing.1.3.js"></script>
@@ -67,11 +68,12 @@
     <div id="newsletter">
       <h2>Find Your Dream Car !</h2>
       <p>Please enter the brand name </p>
-      <form action="#" method="post">
+      <form action="#" method="post" runat="server">
         <fieldset>
           <legend>News Letter</legend>
           <input type="text" value="Enter Name Here&hellip;"  onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
-          <input type="submit" name="news_go" id="news_go" value="FIND" />
+          <asp:Button ID="news_go" runat="server" Text="Find" />
+           
         </fieldset>
       </form>
     <%--  <p>To unsubscribe please <a href="#">click here &raquo;</a></p>--%>
@@ -109,6 +111,7 @@
     <br class="clear" />
   </div>
 </div>
+
 <!-- ####################################################################################################### -->
 <div class="wrapper col7">
   <div id="copyright">
